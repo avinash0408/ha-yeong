@@ -1,0 +1,27 @@
+.side_drawer {
+  height: 100%;
+  background-color: #b166ae;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  z-index: 200;
+}
+.side_drawer ul {
+  padding-top: 3rem;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  height: 50%;
+  justify-content: space-around;
+  padding: 2rem;
+  align-items: center;
+}
+.group {
+  display: flex;
+  align-items: center;
+}
+.side_drawer li {
+  cursor: default;
+}

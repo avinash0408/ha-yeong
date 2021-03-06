@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.nav {
+  height: 10vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: "Redressed", cursive;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    -45deg,
+    #7d26cd,
+    #9b30ff,
+    #9a32cd,
+    #e066ff,
+    #ff00ff
+  );
+  width: 100%;
+  color: #adddce;
+}
+
+.nav-logo {
+  padding-left: 2.5rem;
+}
+.toggler-icon {
+  display: none;
+}
+.spacer {
+  flex: 1;
+}
+.nav-end {
+  display: flex;
+  justify-content: center;
+  min-width: 40%;
+}
+.nav-links {
+  display: flex;
+  list-style-type: none;
+}
+.nav-item {
+  padding: 1rem;
+  outline: 0;
+  font-size: 20px;
+  text-decoration: none;
+}
+.nav-links i {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .toggler-icon {
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
+  }
+  .nav-links {
+    display: none;
+  }
+}
